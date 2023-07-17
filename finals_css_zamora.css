@@ -1,0 +1,132 @@
+@charset "UTF-8";
+body {
+  font-family: 'Trebuchet MS' , sans-serif;
+  font-size: 100%;
+  line-height: 150%;
+  background: rgba(150, 79, 7, 0.33) url(images/blackgoose.png) no-repeat center 100px fixed;
+  margin: inherit;
+  text-align: justify  
+}
+
+header {
+  padding: 2em 0em 0em 0em;
+  text-align: center;
+  background: black repeat;
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #993300;
+}
+a:visited {
+  color: #644f64;
+}
+a:focus, a:hover {
+  color: #e64d00;
+  background-color: #FDFBF1;
+}
+a:active {
+  color: #ff5500;
+  background-color: #fff;
+}
+
+section{
+ margin: 0 15% 0;
+ padding-top: 10px;
+}
+
+h1 {
+ font: bold 1.5em 'Trebuchet MS' , sans-serif;
+ color: #cc5200; 
+}
+
+h2{
+ font-weight: bold;
+ font-size: 2em;
+ color: #804d00;
+ text-shadow: 2px 2px 1px #FDF6F1;
+ background-color: antiquewhite;
+ padding: 10px 0px;
+ text-indent: 25px; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column2 {
+  flex: 50%;
+  padding: 10px;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.label{
+    font-weight: bold;
+}
+
+.topnav{
+    background: #ffe0cc;
+    margin: inherit;
+}
+
+.price{
+    color: #993d00;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.newitem strong{
+    background-color: #fff2cc;
+}
+
+dl {
+  padding: 0px 20px 20px 20px;
+}
+
+dt {
+  font-weight: bold;
+  padding: 30px 20px 10px 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#info p {
+  color: white;
+  font-style: italic;
+}
+
+.warning {
+    color: #cc0000;
+    font-size: 12px;
+    text-align: center
+}
+
+dt {
+    font-size: 150%;
+}
