@@ -15,3 +15,13 @@
   <li><b>HTML</b> for structure and content presentation</li>
   <li><b>CSS</b> for stypling and layout design</li>
 </ul>
+
+<h2>Preview</h2>
+<img 
+  src= "preview-01.png" 
+  alt="website preview 01" 
+  style= "padding: 3em 1em"> 
+<img 
+  src= "preview-02.png" 
+  alt="website preview 01" 
+  style= "padding: 3em 1em"> 
